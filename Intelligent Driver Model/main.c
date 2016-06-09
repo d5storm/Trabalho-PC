@@ -76,10 +76,10 @@ int main()
         }
     }
     //printando a lista para teste
-
+    lista->last->posterior = lista->first;
     for(car = lista->first; car->posterior != NULL; car = car->posterior){
         printf("position = %lf, length = %lf, velocity = %lf, desiredVel = %lf, timeSafety = %lf, a = %lf, b = %lf",car->position,car->length,car->velocity ,car->desiredVel ,car->timeSafety ,car->a ,car->b);
-        printf("\n");
+        printf("\n***************\n");
     }
     printf("position = %lf, length = %lf, velocity = %lf, desiredVel = %lf, timeSafety = %lf, a = %lf, b = %lf",car->position,car->length,car->velocity ,car->desiredVel ,car->timeSafety ,car->a ,car->b);
     printf("\n");
