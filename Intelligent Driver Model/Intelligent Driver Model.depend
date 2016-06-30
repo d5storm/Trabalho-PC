@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1467258821 source:c:\users\murilo\documents\github\trabalho-pc\intelligent driver model\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
